@@ -1,0 +1,154 @@
+body{
+    background-color:rgb(242, 242, 241);
+    
+}
+
+form{
+ text-align:center;
+ 
+}
+
+.container{
+    text-align:center;
+    align-items: center;
+}
+
+.heading{
+    display:flex;
+    position:sticky;
+    top:0;
+    align-items:center;
+    text-align: center;
+    background-color:rgb(242, 242, 241);
+    width:100%;
+    padding:8px;
+    padding-left:20px;
+    height:80px;
+    margin-left:0px;
+   
+}
+
+.heading:hover{
+    background-color:rgb(255, 255, 251);
+}
+
+h1{
+  
+    text-align:center;
+    width:62%;
+    font-size:55px;
+    font-family:Lucida Calligraphy ;
+    height:70px;
+  }
+
+pre{
+     text-align:left;
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif ;
+    height:30px;
+    
+ }
+
+ pre a{
+    text-decoration: none;
+    color:black;
+ }
+
+ #H1{
+    text-align: center;
+    font-size: 50px;
+    margin-top:23px;
+    font-family:Bahnschrift Light;
+    font-style: normal;
+}
+
+#H2{
+    margin-top:-35px;
+    font-size: 20px;
+}
+
+.tab{
+    display:flex;
+    border-style: none none solid none;
+    align-items:center;
+    width:40%;
+    margin:30px auto;
+    font-size:20px;
+}
+#logintab, #registertab{
+    
+    border-style: none ;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    text-align: center; 
+}
+
+.form.active, .form{
+    
+    font-size:20px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    text-align:center;
+    
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+#email, #password {
+    width: 40%;
+    padding: 10px;
+    border-bottom: solid;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-color:rgb(62, 62, 62);
+    background-color:rgb(242, 242, 241);
+    margin-bottom: 10px;
+    margin-right:20px;
+    
+    }
+
+    .remember{
+        display:flex;
+        gap: 4px;
+        
+    }
+
+    .forgot{
+        margin-left:20px ;
+    }
+
+    .checkbox-container{
+        margin-right:20px;
+    }
+
+    .submit{
+        width:40%;
+        height:50px;
+        background-color:black;
+        color:white;
+        margin-top:20px;
+        align-items: center;
+        font-size:20px;
+    }
+
+    #status, #fname, #lname, #country{
+        width:40%;
+        padding: 10px;
+    border-bottom: solid;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-color:rgb(62, 62, 62);
+    background-color:rgb(242, 242, 241);
+    margin-bottom: 10px;
+    margin-right:20px;
+    }
+
+    #status, #country{
+        font-size:20px;
+    }

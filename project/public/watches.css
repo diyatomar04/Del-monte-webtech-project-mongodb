@@ -1,0 +1,86 @@
+nav{
+    display:flex;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+.heading{
+    display:flex;
+    position:sticky;
+    top:0;
+    align-items:center;
+    background-color:rgb(255, 255, 254);
+    width:100%;
+    padding:8px;
+    height:80px;
+    padding-left: 55px;
+   
+}
+
+.heading:hover{
+    background-color:rgb(230, 229, 229);
+    
+}
+
+h1{
+  
+    text-align:center;
+    width:62%;
+    font-size:55px;
+    font-family:Lucida Calligraphy ;
+    height:70px;
+  }
+
+pre{
+     text-align:left;
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif ;
+    height:30px;
+ }
+ 
+ .search-icon{
+  margin-left:130px;
+  padding:25px;
+ }
+
+ 
+
+a{
+  text-decoration: none;
+    color:black;
+}
+
+
+#watch1,#watch2{
+  display:flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:50px;
+  margin-left:125px;
+  margin-right:125px;
+}
+
+
+#N1{
+    text-align: center;
+    font-size: 40px;
+    margin-top:-15px;
+    margin-bottom: -15px;
+}
+
+footer{
+  background-color: black;
+  color:white;
+  height: 80px;
+  font-size: 25px;
+  text-align: center;
+  margin-top:20px;
+  padding-top:3px;
+}
+
+p{
+    font-size: 20px;
+}

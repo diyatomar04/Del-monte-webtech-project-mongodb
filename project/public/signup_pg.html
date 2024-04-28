@@ -1,0 +1,100 @@
+<DOCTYPE! html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" contend="width=device-width, initial-scale=1.0">
+           <title>Del Monte Login Page</title> 
+            <!--<link rel="stylesheet" href="login.css"> -->
+
+            <link rel="stylesheet" href="login.css">
+        </head>
+        <body>
+            <div class="heading">
+            <pre><a href="homepg.html" class="home"> Home Page</a>        <a href="#" class="services">Services</a> </pre>
+            <h1> Del Monte</h1> 
+            </div>
+
+        <div class="container">
+            <div class="login-container">
+            
+            <div class="login-heading">
+            <p id="H1">Please sign in or register</p></h2>
+            <p id="H2">Create your own account and be a part of Del Monte family, discover our world where Elegance is redefined. </p>
+            </div>
+
+            <div class="tab">
+               <button onclick="openloginpg()" class="tab active" id="logintab">LOGIN</button>
+               <div class="divider"></div>
+               <button onclick="opencreatepg()" class="tab" id="registertab">CREATE NEW ACCOUNT</button>
+            </div>
+
+            
+<!-- here the code for create account starts-->
+
+            <form id="registertab" class="form" id="F2">
+                <div class="input">
+                    <label class="status">Title</label><br>
+                    <select id="status" name="status" required>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Ms." selected>Ms.</option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <label class="fname">First Name</label><br>
+                    <input type="'text" id="fname" for="'fname" required>
+                </div>
+     
+                <div class="input">
+                     <label class="lname">Last Name</label><br>
+                     <input type="text" id="lname" for="lname" required>
+                </div>
+
+                <div class="input">
+                    <label class="country">Country/Region</label><br>
+                    <select id="country" name="country" required>
+                        <option value="ind" selected>India</option>
+                        <option value="usa" >USA</option>
+                        <option value="aus" >Australia</option>
+                        <option value="cnd" >Canada</option>
+                        <option value="uk" >United Kingdom</option>
+                        <option value="frc" >France</option>
+                        <option value="mex" >Mexico</option>
+                        <option value="swtz" >Switzerland</option>
+                        <option value="tuk" >Turkey</option>
+                        <option value="dub" >Dubai</option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <label for="email">E-mail Address</label><br>
+                    <input type="email" id="email" name="email" required>   
+                </div>
+
+                <div class="input">
+                    <label class="password">Password</label><br>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="input">
+                    <label class="checkbox-container">
+                        <input type="checkbox" required>
+                        I agree to all the analysis of my interest and give consent to all the commercial promotion
+                         activities related to Del Monte according to our Privacy Policy.    
+                    </label>
+                </div>
+                
+                <button class="submit">CREATE ACCOUNT</button>      
+               
+            </form>
+            </div>
+        </div>
+
+        
+        <script src="login.js">
+        </script>
+        
+        </body>
+    </html>
+</DOCTYPE>

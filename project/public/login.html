@@ -1,0 +1,61 @@
+<DOCTYPE! html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" contend="width=device-width, initial-scale=1.0">
+           <title>Del Monte Login Page</title> 
+            <link rel="stylesheet" href="login.css">
+
+        </head>
+        <body>
+            <div class="heading">
+            <pre><a href="homepg.html" class="home"> Home Page</a>        <a href="#" class="services">Services</a> </pre>
+            <h1> Del Monte</h1> 
+            </div>
+
+        <div class="container">
+            <div class="login-container">
+            
+            <div class="login-heading">
+            <p id="H1">Please sign in or register</p></h2>
+            <p id="H2">Create your own account and be a part of Del Monte family, discover our world where Elegance is redefined. </p>
+            </div>
+
+            <div class="tab">
+               <button onclick="openloginpg()" class="tab active" id="logintab">LOGIN</button>
+               <div class="divider"></div>
+               <button onclick="opencreatepg()" class="tab" id="registertab">CREATE NEW ACCOUNT</button>
+            </div>
+
+            <!--Login Form starting-->
+
+            <form id="loginform" class="form active">
+            <div class="input">
+            <label for="email">E-mail Address</label><br>
+            <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input">
+                <label class="password">Password</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="remeber">
+                <label class="checkbox-container">Remember Me
+                <input type="checkbox">
+                </label>
+                <a href='#' class="forgot">Forgot Password?</a>
+            </div>
+              <br>
+              <button onclick="openhomepg()" class="submit">LOGIN</button>
+            </form>
+
+
+            </div>
+        </div>
+
+        <script src="login.js">
+        </script>
+        </body>
+    </html>
+</DOCTYPE>
